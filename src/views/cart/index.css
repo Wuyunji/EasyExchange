@@ -1,0 +1,12 @@
+.cart-nav-bar {
+  background-color: var(--adm-color-primary);
+  color: #fff;
+  font-weight: 700;
+
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+.cart-scroll {
+  margin-bottom: 109px;
+}

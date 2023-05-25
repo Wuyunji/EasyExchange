@@ -1,0 +1,22 @@
+.order-navbar {
+  background-color: var(--adm-color-primary);
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+.order-tabs {
+  background-color: #fff;
+  position: sticky;
+  top: 45px;
+  z-index: 999;
+}
+.order-swiper {
+  background-color: #eee;
+}
+.order-swiper-content {
+  color: #999;
+  user-select: none;
+}

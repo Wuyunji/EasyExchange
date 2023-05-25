@@ -1,0 +1,12 @@
+.my-goods {
+  background-color: #eee;
+}
+.my-goods-navbar {
+  background-color: var(--adm-color-primary);
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}

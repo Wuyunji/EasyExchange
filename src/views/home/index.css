@@ -1,0 +1,29 @@
+.home-navbar {
+  background-color: var(--adm-color-primary);
+  color: yellow;
+  font-size: 20px;
+  font-weight: 700;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+.home-searchbar {
+  height: 45px;
+  position: sticky;
+  top: 45px;
+  z-index: 999;
+  background-color: #fff;
+}
+.home-scroll {
+  margin-bottom: 49px;
+}
+.home-tabs {
+  background-color: #eee;
+}
+.home-tabs .adm-tabs-header {
+  padding: 5px 0;
+  position: sticky;
+  top: 90px;
+  background: #fff;
+  z-index: 999;
+}

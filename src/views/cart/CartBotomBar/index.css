@@ -1,0 +1,32 @@
+.cart-bottom-bar {
+  width: 100%;
+  height: 60px;
+  line-height: 60px;
+  font-size: 20px;
+  background-color: #eee;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  position: fixed;
+  bottom: 49px;
+}
+.cart-checkbox {
+  flex-basis: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cart-total-price {
+  flex: 1;
+  background-color: #00a5aa;
+  color: #fff;
+  text-align: center;
+}
+.cart-calculate {
+  flex-basis: 120px;
+  background-color: var(--adm-color-primary);
+  color: #fff;
+  text-align: center;
+}

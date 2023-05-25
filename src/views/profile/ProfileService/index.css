@@ -1,0 +1,11 @@
+.profile-service {
+  height: 215px;
+  width: 90%;
+  position: absolute;
+  left: 5%;
+  top: 390px;
+}
+.profile-collect {
+  margin-left: 5px;
+  color: var(--adm-color-primary);
+}

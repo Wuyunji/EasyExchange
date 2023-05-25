@@ -1,0 +1,69 @@
+.payment {
+  height: 100%;
+  background-color: #eee;
+}
+.payment-navbar {
+  background-color: var(--adm-color-primary);
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+.payment-userinfo .adm-list-item-content {
+  font-size: 20px;
+}
+.payment-card {
+  width: 90%;
+  margin: 5%;
+  font-size: 16px;
+}
+.payment-list .adm-list-item {
+  padding: 10px 0;
+}
+.payment-list .adm-list-item-title,
+.payment-list .adm-list-item-content-extra {
+  font-size: 16px;
+}
+.payment-bottom-bar {
+  height: 58px;
+  background-color: #fff;
+  font-size: 20px;
+  border-top: 1px solid #eee;
+
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  z-index: 999;
+}
+.payment-total {
+  font-weight: 700;
+  color: #666;
+  margin: auto;
+}
+.payment-button {
+  flex-basis: 120px;
+}
+.payment-button > span {
+  padding: 10px;
+}
+.payment-price {
+  font-size: 40px;
+  font-weight: 700;
+  color: #666;
+}
+.payment-check-button > span {
+  font-size: 20px;
+  padding: 5px 50px;
+}
+.payment-popup-list {
+  width: 90%;
+}
+.payment-scroll {
+  margin-bottom: 58px;
+}

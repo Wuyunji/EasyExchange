@@ -1,0 +1,53 @@
+.profile-basicinfo {
+  height: 150px;
+  width: 90%;
+  position: absolute;
+  left: 5%;
+  top: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.profile-basicinfo .adm-list-body {
+  border: 0;
+}
+.profile-basicinfo .adm-list-item-content-prefix {
+  width: 100px;
+}
+.profile-avatar-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.profile-avatar-upload {
+  width: 60px;
+  height: 60px;
+  margin-top: -50px;
+  border-radius: 50%;
+  opacity: 0;
+  position: absolute;
+}
+.profile-avatar {
+  width: 60px;
+  height: 60px;
+  margin-top: -30px;
+  --border-radius: 50%;
+}
+.profile-name,
+.profile-signature {
+  text-align: center;
+  font-size: 16px;
+  font-weight: 700;
+}
+.profile-edit {
+  margin-left: 10px;
+}
+.profile-edit img {
+  width: 20px;
+  height: 20px;
+}
+.focus {
+  outline: none;
+  outline: 2px solid black;
+  border-radius: 5px;
+}

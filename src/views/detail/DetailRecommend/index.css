@@ -1,0 +1,8 @@
+.detail-recommend-title {
+  font-size: 24px;
+  color: var(--adm-color-primary);
+  text-align: center;
+  border-top: 1px solid var(--adm-color-primary);
+  border-bottom: 1px solid var(--adm-color-primary);
+  margin: 10px 0;
+}

@@ -1,0 +1,21 @@
+.profile-myorder {
+  height: 140px;
+  width: 90%;
+  position: absolute;
+  left: 5%;
+  top: 235px;
+}
+.profile-order {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.profile-order-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.profile-order-item > span {
+  margin-top: 10px;
+}

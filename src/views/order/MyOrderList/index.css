@@ -1,0 +1,12 @@
+.order-card {
+  height: 100%;
+  width: 90%;
+  margin-left: 5%;
+  margin-top: 5%;
+}
+.order-list {
+  height: 100%;
+}
+.order-list-item {
+  font-size: 16px;
+}

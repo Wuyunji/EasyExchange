@@ -1,0 +1,38 @@
+.profile-navbar {
+  background-color: var(--adm-color-primary);
+  color: yellow;
+  font-size: 20px;
+  font-weight: 700;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+.profile {
+  width: 100vw;
+  height: calc(100vh - 48px);
+  background: #eee;
+  position: relative;
+}
+.profile-right {
+  font-size: 32px;
+  background-color: var(--adm-color-primary);
+}
+.profile-right > .adm-dropdown-nav {
+  border: 0;
+}
+.profile-right .adm-dropdown-item-title {
+  height: 45px;
+  width: 45px;
+}
+.profile-right .profile-right-arrow {
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+}
+.profile-right .adm-dropdown-item-title-arrow > svg {
+  height: 45px;
+  width: 45px;
+}
+.profile-right .antd-mobile-icon {
+  vertical-align: 0 !important;
+}

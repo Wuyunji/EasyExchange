@@ -1,0 +1,17 @@
+.login-box {
+  margin-top: 80px;
+}
+.avatar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+.eye {
+  padding: 4px;
+  cursor: pointer;
+}
+.eye svg {
+  display: block;
+  font-size: var(--adm-font-size-7);
+}

@@ -1,0 +1,30 @@
+.detail-goods-info {
+  width: 100%;
+}
+
+.info-desc {
+  height: 100px;
+  color: #222;
+}
+.info-desc .start {
+  width: 70px;
+  border-bottom: 2px solid black;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.info-desc .desc {
+  height: 84px;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+  padding: 10px;
+  font-size: 20px;
+  line-height: 25px;
+}
+.info-desc .end {
+  width: 70px;
+  border-bottom: 2px solid black;
+  margin-top: 20px;
+  margin-left: 230px;
+}
